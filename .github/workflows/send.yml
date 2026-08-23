@@ -2,8 +2,7 @@ name: Send Douyin Messages V2
 
 on:
   schedule:
-    - cron: "0 14 * * *"
-    timezone: "Asia/Shanghai"
+    - cron: "0 6 * * *"
 
   workflow_dispatch:
     inputs:
